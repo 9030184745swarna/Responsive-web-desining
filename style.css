@@ -1,0 +1,42 @@
+img{
+  width: 200px;
+
+}
+body{
+  color: slateblue;
+  background-color: lightgreen;
+}
+.sub1{
+
+  border:3px solid #add;
+  margin:1%;
+  padding:1%;
+  text-align:center;
+  width: 75%;
+}
+.MainDiv{
+  border: 3px solid #000;
+  display: flex;
+
+}
+@media screen and (max-width:450px)
+{
+
+  .MainDiv{
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media screen and (min-width:426%) and (max-width:768)
+{
+  .MainDiv{
+    border: 3px solid #000;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+
+}
